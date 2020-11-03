@@ -981,7 +981,7 @@ section.buttons .container-fluid {
     -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
     -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
     transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-    background-color: #24252d;
+    background-color: #892cdc;
     position: relative;
     width: 420px;
 }
@@ -1212,7 +1212,7 @@ section.buttons .container-fluid {
 .featured-posts {
     margin-top: 50px;
     position: relative;
-    background-color: #1e1f25;
+    background-color: #892cdc;
     margin-left: -50px;
     margin-right: -50px;
     padding: 50px;
@@ -1258,7 +1258,7 @@ section.buttons .container-fluid {
     display: -ms-flex;
     display: flex;
     position: relative;
-    background-color: #535ba0;
+    background-color: #52057b;
     margin: -100px -100px 100px -100px;
 }
 
