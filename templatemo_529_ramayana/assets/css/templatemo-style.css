@@ -58,11 +58,11 @@ button {
     transition: all 0.5s;
 }
 
-.primary-button a:hover,
-button:hover {
-    color: #fff;
-    background-color: rebeccapurple;
-}
+    .primary-button a:hover,
+    button:hover {
+        color: #fff;
+        background-color: #52057b;
+    }
 
 section#search {
     border-bottom: none;
@@ -102,12 +102,10 @@ section {
     -ms-flex-shrink: 1;
     flex-shrink: 1;
     width: 100%;
+    
 }
 
-#main>.inner {
-    background-color: #E6ccff;
-    background-image: url(/mountain.jpg);
-    background-attachment: fixed;
+#main>.inner {    
     padding: 100px;
 }
 
@@ -254,9 +252,9 @@ section {
     background-image: url(../images/icon_hover_06.png);
 }
 
-.services .service-item:hover {
-    background-color: rebeccapurple;
-}
+    .services .service-item:hover {
+        background-color: #52057b;
+    }
 
 .services .service-item:hover h4,
 .services .service-item:hover p {
@@ -393,11 +391,11 @@ section.contact-form {
     margin-bottom: 40px;
 }
 
-.contact-form input:focus {
-    outline: none;
-    box-shadow: none;
-    border-color: rebeccapurple;
-}
+    .contact-form input:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: #52057b;
+    }
 
 .contact-form textarea {
     font-size: 14px;
@@ -414,29 +412,29 @@ section.contact-form {
     margin-bottom: 40px;
 }
 
-.contact-form textarea:focus {
-    outline: none;
-    box-shadow: none;
-    border-color: rebeccapurple;
-}
+    .contact-form textarea:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: #52057b;
+    }
 
-.contact-form button {
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    display: inline-block;
-    padding: 8px 20px;
-    color: rebeccapurple;
-    background-color: transparent;
-    border: 2px solid rebeccapurple;
-    transition: all 0.5s;
-    cursor: pointer;
-}
+    .contact-form button {
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 8px 20px;
+        color: #52057b;
+        background-color: transparent;
+        border: 2px solid #52057b;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
 
-.contact-form button:hover {
-    color: #fff;
-    background-color: rebeccapurple;
-}
+        .contact-form button:hover {
+            color: #fff;
+            background-color: #52057b;
+        }
 
 
 /* Tables */
@@ -1140,11 +1138,12 @@ section.buttons .container-fluid {
     #sidebar .toggle {
         width: 6em;
     }
-    #sidebar .toggle:before {
-        font-size: 1.5rem;
-        color: #fff;
-        background-color: rebeccapurple;
-    }
+        #sidebar .toggle:before {
+            font-size: 1.5rem;
+            color: #fff;
+            background-color: #52057b;
+            opacity:0.7;
+        }
     body.wrapreload #sidebar {
         display: none;
     }
@@ -1180,16 +1179,17 @@ section.buttons .container-fluid {
     #sidebar .toggle:before {
         background-color: transparent;
     }
-    #sidebar .toggle:after {
-        background: rebeccapurple;
-        border-radius: 5px;
-        content: '';
-        height: 60px;
-        left: 15px;
-        position: absolute;
-        top: 15px;
-        width: 80px;
-    }
+        #sidebar .toggle:after {
+            background: #52057b;
+            opacity:0.9;
+            border-radius: 0;
+            content: '';
+            height: 60px;
+            left: 15px;
+            position: absolute;
+            top: 15px;
+            width: 80px;
+        }
     .left-image .right-content {
         margin-top: 40px;
         margin-left: 0px;
@@ -1261,7 +1261,7 @@ section.buttons .container-fluid {
     display: -ms-flex;
     display: flex;
     position: relative;
-    background-color: rebeccapurple;
+    background-color: #52057b;
     margin: -100px -100px 100px -100px;
 }
 
