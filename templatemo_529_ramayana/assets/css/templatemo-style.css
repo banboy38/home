@@ -107,6 +107,7 @@ section {
 #main>.inner {
     background-color: #E6ccff;
     background-image: url(/mountain.jpg);
+    background-attachment: fixed;
     padding: 100px;
 }
 
