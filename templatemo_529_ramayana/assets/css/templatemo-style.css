@@ -105,7 +105,7 @@ section {
 }
 
 #main>.inner {
-    background-color:;
+    background-color:#E6ccff;
     background-image:url(/mountain.jpg);
     padding: 100px;
 }
@@ -395,7 +395,7 @@ section.contact-form {
 .contact-form input:focus {
     outline: none;
     box-shadow: none;
-    border-color: #535ba0;
+    border-color: rebeccapurple;
 }
 
 .contact-form textarea {
@@ -416,7 +416,7 @@ section.contact-form {
 .contact-form textarea:focus {
     outline: none;
     box-shadow: none;
-    border-color: #535ba0;
+    border-color: rebeccapurple;
 }
 
 .contact-form button {
@@ -425,16 +425,16 @@ section.contact-form {
     text-transform: uppercase;
     display: inline-block;
     padding: 8px 20px;
-    color: #535ba0;
+    color: rebeccapurple;
     background-color: transparent;
-    border: 2px solid #535ba0;
+    border: 2px solid rebeccapurple;
     transition: all 0.5s;
     cursor: pointer;
 }
 
 .contact-form button:hover {
     color: #fff;
-    background-color: rgba(83, 91, 160, 1);
+    background-color:rebeccapurple;
 }
 
 
