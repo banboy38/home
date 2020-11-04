@@ -53,15 +53,15 @@ button {
     background-color: transparent;
     display: inline-block;
     padding: 8px 20px;
-    color: #535ba0;
-    border: 2px solid #535ba0;
+    color: #52057b;
+    border: 2px solid #52057b;
     transition: all 0.5s;
 }
 
 .primary-button a:hover,
 button:hover {
     color: #fff;
-    background-color: rgba(83, 91, 160, 1);
+    background-color: rebeccapurple;
 }
 
 section#search {
@@ -105,6 +105,8 @@ section {
 }
 
 #main>.inner {
+    background-color:#E6ccff;
+    background-image:url(/mountain.jpg);
     padding: 100px;
 }
 
@@ -175,6 +177,14 @@ section {
 .services .col-md-6 {
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.services .col-md-5 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 
 .services .service-item {
@@ -244,7 +254,7 @@ section {
 }
 
 .services .service-item:hover {
-    background-color: #535ba0;
+    background-color: rebeccapurple;
 }
 
 .services .service-item:hover h4,
@@ -385,7 +395,7 @@ section.contact-form {
 .contact-form input:focus {
     outline: none;
     box-shadow: none;
-    border-color: #535ba0;
+    border-color: rebeccapurple;
 }
 
 .contact-form textarea {
@@ -406,7 +416,7 @@ section.contact-form {
 .contact-form textarea:focus {
     outline: none;
     box-shadow: none;
-    border-color: #535ba0;
+    border-color: rebeccapurple;
 }
 
 .contact-form button {
@@ -415,16 +425,20 @@ section.contact-form {
     text-transform: uppercase;
     display: inline-block;
     padding: 8px 20px;
-    color: #535ba0;
+    color: rebeccapurple;
     background-color: transparent;
-    border: 2px solid #535ba0;
+    border: 2px solid rebeccapurple;
     transition: all 0.5s;
     cursor: pointer;
 }
 
 .contact-form button:hover {
     color: #fff;
-    background-color: rgba(83, 91, 160, 1);
+
+    background-color:rebeccapurple;
+
+    
+
 }
 
 
@@ -973,7 +987,7 @@ section.buttons .container-fluid {
     -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
     -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
     transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-    background-color: #24252d;
+    background-color: #1a1b20;
     position: relative;
     width: 420px;
 }
@@ -1132,9 +1146,9 @@ section.buttons .container-fluid {
     #sidebar .toggle:before {
         font-size: 1.5rem;
         color: #fff;
-        background-color: rgba(83, 91, 160, 0.75);
+        background-color:rebeccapurple;
     }
-    body.is-preload #sidebar {
+    body.wrapreload #sidebar {
         display: none;
     }
 }
@@ -1170,7 +1184,7 @@ section.buttons .container-fluid {
         background-color: transparent;
     }
     #sidebar .toggle:after {
-        background: rgba(83, 91, 160, 0.90);
+        background: rebeccapurple;
         border-radius: 5px;
         content: '';
         height: 60px;
@@ -1204,7 +1218,7 @@ section.buttons .container-fluid {
 .featured-posts {
     margin-top: 50px;
     position: relative;
-    background-color: #1e1f25;
+    background-color:#2d2e39;
     margin-left: -50px;
     margin-right: -50px;
     padding: 50px;
@@ -1250,7 +1264,7 @@ section.buttons .container-fluid {
     display: -ms-flex;
     display: flex;
     position: relative;
-    background-color: #535ba0;
+    background-color:rebeccapurple;
     margin: -100px -100px 100px -100px;
 }
 
@@ -1325,7 +1339,7 @@ section.buttons .container-fluid {
 
 #menu ul a:hover,
 #menu ul span:hover {
-    color: #535ba0;
+    color: aliceblue;
 }
 
 #menu ul a.opener,
