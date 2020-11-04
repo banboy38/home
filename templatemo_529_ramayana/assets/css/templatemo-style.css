@@ -105,7 +105,8 @@ section {
 }
 
 #main>.inner {
-    background-color: #e6ccff;
+    background-color:;
+    background-image:url(/mountain.jpg);
     padding: 100px;
 }
 
@@ -982,7 +983,7 @@ section.buttons .container-fluid {
     -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
     -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
     transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-    background-color: rebeccapurple;
+    background-color: #1a1b20;
     position: relative;
     width: 420px;
 }
@@ -1213,7 +1214,7 @@ section.buttons .container-fluid {
 .featured-posts {
     margin-top: 50px;
     position: relative;
-    background-color: rebeccapurple;
+    background-color:#2d2e39;
     margin-left: -50px;
     margin-right: -50px;
     padding: 50px;
